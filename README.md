@@ -4,7 +4,7 @@ Završni projekt za kolegij Programiranje web aplikacija na Tehničkom Veleučil
 #[početna stranica](https://i.imgur.com/wDJ09hF.png)
 
 # INSTALACIJA
-Priložene datoteke je potrebno staviti u htdocs direktorij. U PhpMyAdmin je potrebno napraviti bazu imena "pwaprojekt"
+Priložene datoteke je potrebno staviti u htdocs direktorij. U PhpMyAdmin je potrebno napraviti bazu imena "pwaprojekt".
 Unutar te baze je potrebno pokrenuti (import) datoteku baza.sql. Početna stranica je index.php
 
 # UPUTE ZA KORIŠTENJE
