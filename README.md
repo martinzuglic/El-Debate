@@ -8,5 +8,5 @@ Priložene datoteke je potrebno staviti u htdocs direktorij. U PhpMyAdmin je pot
 Unutar te baze je potrebno pokrenuti (import) datoteku baza.sql. Početna stranica je index.php
 
 # UPUTE ZA KORIŠTENJE
-Moguće je dodavati nove vijesti, te brisati i editati stare ako ste ulogirani kao administrator
+Moguće je dodavati nove vijesti, te brisati i editati stare ako ste ulogirani kao administrator.
 Pri registraciji u svrhu testiranja možete odrabrati razinu dozvole (0- obični korisnik, 1- administrator)
