@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+}
+
+@media only screen and (max-width: 500px) {
+    .container-fluid .container nav {
+        display: none;
+    }
+}
+
+header {
+    text-align: center;
+    background-color:#003153;
+}
+
+header img {
+    margin-bottom: -20px;
+    height: 130px;
+    width: 150px;
+}
+
+header .container .row ul {
+    list-style-type:none;
+    width:100%;
+}
+
+header .container .row li {
+    width: 16.6%;
+    float: left;
+    text-align: center;
+    font-size: 15px;
+    color: white;
+    text-shadow: 1px 1px black;
+    font-weight: bold;
+    padding-bottom: 15px;
+}
+
+header .container .row li:hover {
+    color: orange;
+    text-shadow: 1px 1px black;
+}
+
+#mundo .row img{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    width: 250px;
+    height: 220px; 
+    border-radius: 2%;
+}
+
+.container #services {
+    margin-bottom: 30px;
+    margin-top: 10px;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.container #services img {
+    float: left;
+    width: 25px;
+    height: 40px;
+    margin-right: 10px; 
+}
+
+#mundo .row h3{
+    margin-top: -10px; 
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#mundo .row h6{
+    font-size: 16px;
+    margin-top: -10px;
+}
+#mundo .row a{
+    text-decoration: none;
+}
+
+footer {
+    height: 90px;
+    text-align: left;
+    background-color:#003153;    
+}
+
+footer div{
+    padding-top: 25px;
+    padding-left: 5px;
+}
+
+footer div p {
+    margin-bottom: -5px;
+    color: lightgray;
+    font-size: 15px;;
+}
+
+.container #top_c h6{
+    color: #003153;
+    text-align: center;
+    padding: 25px;
+    font-weight: bold;
+    margin-bottom: -15px;
+}
+
+.container #top_c h2{
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.container #top_c p{
+    text-align: center;
+    color: gray;
+}
+
+.container #mundoc img {
+    height: 90%;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container #bottom_c p{
+    margin-top: -30px;
+    text-align: left;
+    font-size: 15px;
+    line-height: 1.8;
+}
+
+.container .row section .slika img {
+    height: 90%;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+}
+
+.container .row div h3 {
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 35px;
+    font-weight: bold;
+    color: black;
+}
+
+.container .row section {
+    margin-bottom: 15px;
+    color: grey;
+}
+
+.container .row form button {
+    margin-right: 10px; 
+    background-color: #003153;
+    border: none;
+}
+
+.container .row form button:hover {
+    background-color: #005b7c;
+}
+
+.container .row #login {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;   
+}
+
+.container .row #login form{
+    text-align: center;
+    margin-top: 50px;
+}

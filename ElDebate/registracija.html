@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+        integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+        integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css" />
+    <script type="text/javascript" src="jquery-1.11.0.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.1/jquery.validate.min.js"></script>
+    <script src="validacija.js"></script>
+</head>
+
+<body>
+    <header>
+        <title>Registracija</title>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <a href="index.php"><img src="slike/news.png" /></a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <nav>
+                        <ul>
+                            <h4>
+                                <a href="index.php">
+                                    <li>POČETNA</li>
+                                </a>
+                            </h4>
+                            <h4>
+                                <a href="svijet.php">
+                                    <li>SVIJET</li>
+                                </a>
+                            </h4>
+                            <h4>
+                                <a href="sport.php">
+                                    <li>SPORT</li>
+                                </a>
+                            </h4>
+                            <h4>
+                                <a href="unos.html">
+                                    <li>UNOS</li>
+                                </a>
+                            </h4>
+                            <h4>
+                                <a href="registracija.html">
+                                    <li>REGISTRACIJA</li>
+                                </a>
+                            </h4>
+                            <h4>
+                                <a href="login.php">
+                                    <li>PRIJAVA</li>
+                                </a>
+                            </h4>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12" id="login">
+                <form method="post" action="registracija.php">
+                    <label for="ime">Korisničko ime</label>
+                    <br />
+                    <input name="ime" type="text" required />
+                    <br />
+                    <label for="lozinka">Lozinka</label>
+                    <br />
+                    <input name="lozinka" type="password" required />
+                    <br />
+                    <label for="razina">Razina pristupa</label>
+                    <br />
+                    <select name="razina" id="razina">
+                        <option value="0">0</option>
+                        <option value="1">1</option>
+                    </select>
+                    <br />
+                    <br />
+                    <input name="prijava" type="submit" value="registracija" style="padding:5px;"/>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <footer class="fixed-bottom">
+        <div>
+            <p>Martin Žuglić</p>
+            <p>mzuglic@tvz.hr</p>
+            <p>2020</p>
+        </div>
+    </footer>
+
+
+</body>
+
+</html>
+
+
+
